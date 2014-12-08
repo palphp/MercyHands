@@ -1,0 +1,28 @@
+<div class="container" role="main">
+	<div id="map-canvas" class="mapFrame"></div>
+	<div class="row">
+		<div class="col-md-12">
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th>Date</th>
+						<th>Country</th>
+						<th>City</th>
+						<th>Title</th>
+						<th>Category</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr ng-repeat="desease in deseases">
+						<td>{{desease.date_time}}</td>
+						<td>{{desease.country}}</td>
+						<td>{{desease.city}}</td>
+						<td>{{desease.title}}</td>
+						<td>{{desease.category}}</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+		

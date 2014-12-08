@@ -1,0 +1,22 @@
+mc_gross=550.00&protection_eligibility=Ineligible&item_number1=&payer_id=ZGLAUXBA254U2&tax=0.00&payment_date=06%3A24%3A55+Dec+07%2C+2014+PST&payment_status=Completed&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=Test&mc_fee=16.25&notify_version=3.8&custom=2344444&payer_status=verified&business=thesunyangel-facilitator%40yahoo.com&num_cart_items=1&mc_handling1=0.00&verify_sign=AFcWxV21C7fd0v3bYYYRCpSSRl31A7RxwJgEZj-O2uqEM4c6LOQAP7z.&payer_email=thesunyangel-buyer%40yahoo.com&mc_shipping1=0.00&tax1=0.00&txn_id=51718436NY958845P&payment_type=instant&last_name=Buyer&item_name1=Gold+Tickets&receiver_email=thesunyangel-facilitator%40yahoo.com&payment_fee=16.25&quantity1=1&receiver_id=WD7BG6JFK7AV6&txn_type=cart&mc_gross_1=550.00&mc_currency=USD&residence_country=US&test_ipn=1&transaction_subject=2344444&payment_gross=550.00&ipn_track_id=67296c4b291c9&cmd=_notify-validate\r\nHTTP/1.1 200 OK
+,Date: Sun, 07 Dec 2014 14:25:02 GMT
+,Server: Apache
+,X-Frame-Options: SAMEORIGIN
+,Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=uBwAonTrkV9IJmFGRqZgqyFPJzODwDhwfV9CkDYU0eUfuXn8hGkdJ6CBon4U6sePAwVv1TQun0pknjZRtc-MtiyfMmuKWEa0gS3nDCocLb0P6Y1pi6KfUYZ1TxXJF4i2Ox2dblsW3Di2r7tJsmRsyGJX6mhBER0fjmC3OZTnQ2QPCCTKI-QHuqVoH_fm4dbhnZTMaSysV-oRcikk65NjBf1HgLbK137PPlcw8lra-E059ioyGX1q9wTitEwDu3X040K4HrPUBTfGgUnUhZKV9xHM9uWT9YYf0lmQXXdqHoCla9X51XLtluLB_rGZ5h0_jmEXn93VxnegyaDqtIm276zgFwHb7ME9a-_jURnrv13QAEC5sNu8C-ku3rbI0PSCfv2kL-JeWj-YVL-FVndryAVCdiGVpfolopzB-Db10eDzvtjdg8CyuLQNg98; domain=.paypal.com; path=/; Secure; HttpOnly
+,Set-Cookie: cookie_check=yes; expires=Wed, 04-Dec-2024 14:25:02 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+,Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+,Set-Cookie: navlns=0.0; expires=Tue, 06-Dec-2016 14:25:02 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+,Set-Cookie: Apache=10.72.108.11.1417962302472452; path=/; expires=Tue, 29-Nov-44 14:25:02 GMT
+,Vary: Accept-Encoding,User-Agent
+,Connection: close
+,Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dslingshot%26TIME%3D1046709332; domain=.paypal.com; path=/; Secure; HttpOnly
+,Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+,Set-Cookie: Apache=10.72.128.11.1417962302458293; path=/; expires=Tue, 29-Nov-44 14:25:02 GMT
+,Strict-Transport-Security: max-age=14400
+,Transfer-Encoding: chunked
+,Content-Type: text/html; charset=UTF-8
+,
+,8
+,VERIFIED
+,0
+,

@@ -1,0 +1,163 @@
+####
+To "Eyad" Only:
+TO Get Response Fields
+API:http://localhost/Dropbox/cool-print/backend/index.php
+Please Login As :
+email:me@palphp.com
+password:123
+###
+
+Create New Campaign:
+{
+"folder": "campaigns",
+"page": "new",
+"title": "Testing Hamdan",
+"shortcut": "",
+"summary": "",
+"goal": "",
+"category": "1",
+"total_days": "",
+"city": "",
+"contact_mobile": "",
+"description": "",
+"video": "",
+"photo": "",
+"country": "Palestine",
+"img1": "",
+"img2": "",
+"img3": "",
+"img4": "",
+"img5": ""
+}
+========================================
+Rerturn All Categories of camaigns , for "Select Input" :
+{
+"folder": "campaigns",
+"page": "categories"
+}
+========================================
+http://localhost/Dropbox/cool-print/template/notifications.html
+{
+"folder": "members",
+"page": "notification",
+"alert_actions":1,
+"alert_add_funds":1,
+"alert_project":1,
+"alert_comments":1
+}
+========================================
+http://localhost/Dropbox/cool-print/template/account.html
+{
+"folder": "members",
+"page": "completeprofile",
+"photo": "",
+"first_name": "",
+"newsletter":1,
+"status":1,
+"last_name": "",
+"address": "",
+"city": "",
+"Country": "",
+"about": "",
+"occupation": "",
+"interest": "",
+"skills": "",
+"website": "",
+"facebook": "",
+"twitter": "",
+"linkedin": "",
+"google_plus": "",
+"youtube": ""
+}
+=======================================
+
+http://localhost/Dropbox/cool-print/template/change-password.html
+{
+"folder": "members",
+"page": "change_pass",
+"current_Password": "20300302",
+"New_Password": "123",
+"confirm_Password": "123"
+}
+
+======================================
+
+http://localhost/Dropbox/cool-print/template/my-wallet.html
+{
+"folder": "members",
+"page": "my_wallet"
+}
+
+====================================
+http://localhost/Dropbox/cool-print/template/my-withdraw.html
+{
+"folder": "members",
+"page": "my_withdraw"
+}
+
+======================================
+
+http://localhost/Dropbox/cool-print/template/my-campaigns.html
+{
+"folder": "members",
+"page": "my_campaigns"
+}
+
+========================================
+Send email: 
+Contact US:
+http://localhost/Dropbox/cool-print/template/contact.html#
+{
+"folder": "config",
+"page": "contact_us",
+"name": "Hamdan",
+"email": "php.hamdan@gmail.com",
+"detail": "we want to let you know that!!"
+}
+
+=========================================
+Donate :
+#### 2 Steps:
+		Request 1:Collect name,details and amount in Dollars
+		Request 2:Bring UP PayPal Form
+Request 1:
+http://localhost/Dropbox/cool-print/template/donate.html
+{
+"folder":"paypal",
+"page":"pay",
+"details":"we hope your doing very well",
+"amount":"123",
+"campaign":"5",
+"doner_name":"Firas",
+"hide":1
+}
+
+If we get such a response :
+    /*
+     {
+       "success": true,
+       "Info":
+       {
+           "message": "Get Paypal Button",
+           "custom": "141798058638"
+       }
+    }
+    */
+
+  Request 2 : Bring Up PAYPAL Form , we need to pass VALUE of "custom" from last response
+{
+"folder":"paypal",
+"page":"paypal",
+"title":"Title of Campaign",
+"amount":"123",
+"custom":"141798058638"
+}
+
+
+
+# Thats ALL GUYS
+Thanks To all of you.
+
+
+
+

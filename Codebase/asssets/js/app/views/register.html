@@ -1,0 +1,24 @@
+<div class="container" role="main">
+	<div id="registerPage" style="height: 491px;">
+		<div class="col-md-3"></div>
+		<div class="col-md-6">
+			<form class="form-signin" role="form" style="margin-top: 141px;" name="join_us_form" novalidate ng-submit="handle_form()">
+				<h2 class="form-signin-heading center-text">Join us now and save others !</h2>
+				<label for="inputName" class="sr-only">Name</label>
+				<input type="text" id="inputName" ng-model="joinus_form.fullname" name="fullname" class="form-control" placeholder="Full Name" required="" autofocus="">
+				<label for="inputEmail" class="sr-only">Email</label>
+				<input type="email" id="inputEmail" ng-model="joinus_form.email" name="email" class="form-control" placeholder="Email Address" required="">
+				<label for="inputPassword" class="sr-only">Password</label>
+				<input type="password" id="inputPassword" ng-model="joinus_form.password" name="password" class="form-control" placeholder="Password" required="">
+				<div class="checkbox">
+				  <label>
+					<input type="checkbox" ng-model="joinus_form.agree" name="agree">I agree to Mercy Hands TOS &amp; Privacy Policy
+				  </label>
+				</div>
+				<button class="btn btn-lg btn-primary btn-block" type="submit">Continue</button>
+			</form>
+		</div>
+		<div class="col-md-3"></div>
+	</div>
+	<div class="clear"></div>
+</div>

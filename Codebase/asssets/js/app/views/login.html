@@ -1,0 +1,22 @@
+<div class="container" role="main">
+	<div id="loginPage" style="height: 491px;">
+		<div class="col-md-3"></div>
+		<div class="col-md-6">
+			<form class="form-signin" role="form" style="margin-top: 141px;" novalidate name="sign_in_form" ng-submit="handle_form()">
+				<h2 class="form-signin-heading">Please sign in</h2>
+				<label for="inputEmail" class="sr-only">Email address</label>
+				<input type="email" ng-model="signin_form.loginEmail" name="loginEmail" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+				<label for="inputPassword" class="sr-only">Password</label>
+				<input type="password"  ng-model="signin_form.inputPassword" name="loginPassword" id="inputPassword" class="form-control" placeholder="Password" required="">
+				<div class="checkbox">
+				  <label>
+					<input type="checkbox" ng-model="signin_form.rememberme" value="remember-me"> Remember me
+				  </label>
+				</div>
+				<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+			</form>
+		</div>
+		<div class="col-md-3"></div>
+	</div>
+	<div class="clear"></div>
+</div>

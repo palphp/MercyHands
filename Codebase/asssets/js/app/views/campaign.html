@@ -1,0 +1,98 @@
+<div class="container" role="main">
+	<div class="row campaign-heading">
+		<div class="col-md-9">
+			<h1 class="campaign-head">{{campaign.title}}</h1>
+		</div>
+		<div class="col-md-3">
+			<ul class="capm-head-list">
+				<li>From {{campaign.city}}, {{campaign.country}} <img src="asssets/images/flags/16/Palestine.png" alt="Palestine"></li>
+				<li>By : <a href="#" title="Feras Saqqa">{{campaign.first_name}}</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="row campaign-page-top">
+		<div class="col-md-9">
+			<iframe class="camp-video" ng-src="{{get_secure_url(campaign.video)}}" frameborder="0" allowfullscreen=""></iframe>
+		</div>
+		<div class="col-md-3 camp-side">
+			<h2>Summary</h2>
+			<p>{{campaign.summary}}</p>
+			<div class="side-br"></div>
+			<ul class="camp-sts">
+				<li><span class="label label-default">{{campaign.views}}</span> views on this campaign</li>
+				<li><span class="label label-primary">10,025</span> shares</li>
+				<li><span class="label label-success">{{campaign.helpers}}</span> helpers</li>
+			</ul>
+			<div class="clear"></div>
+			<div class="spcial-share">
+				<span class="st_facebook_large" displaytext="Facebook" st_processed="yes"><span style="text-decoration:none;color:#000000;display:inline-block;cursor:pointer;" class="stButton"><span class="stLarge" style="background-image: url(http://w.sharethis.com/images/facebook_32.png);"></span></span></span>
+				<span class="st_twitter_large" displaytext="Tweet" st_processed="yes"><span style="text-decoration:none;color:#000000;display:inline-block;cursor:pointer;" class="stButton"><span class="stLarge" style="background-image: url(http://w.sharethis.com/images/twitter_32.png);"></span></span></span>
+				<span class="st_googleplus_large" displaytext="Google +" st_processed="yes"><span style="text-decoration:none;color:#000000;display:inline-block;cursor:pointer;" class="stButton"><span class="stLarge" style="background-image: url(http://w.sharethis.com/images/googleplus_32.png);"></span></span></span>
+				<span class="st_linkedin_large" displaytext="LinkedIn" st_processed="yes"><span style="text-decoration:none;color:#000000;display:inline-block;cursor:pointer;" class="stButton"><span class="stLarge" style="background-image: url(http://w.sharethis.com/images/linkedin_32.png);"></span></span></span>
+				<!-- <script id="facebook-jssdk" src="//connect.facebook.net/en_US/sdk.js#xfbml=1&amp;appId=1481656762057304&amp;version=v2.0"></script><script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+				<script type="text/javascript">stLight.options({publisher: "a669eef4-a114-443e-ba56-250f212faeb0", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+			 --></div>
+			<div class="clear"></div>
+			<center><span class="end-camp-date label label-warning">Campaign end at {{campaign.date_time}}</span></center>
+		</div>
+	</div>
+	<div class="row campaign-page-med">
+		<p class="camp-collected"><b>${{campaign.collected}} Collected</b>out of a ${{campaign.goal}} Goal</p>
+		<button type="button" onclick="window.location='#';" class="fund-this-camp btn btn-lg btn-primary">Fund this Campaign</button>
+		<p class="day-left"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> {{campaign.days_left}} Day left</p>
+	</div>
+	<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_http" frameborder="0" allowtransparency="true" scrolling="no" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="http://static.ak.facebook.com/connect/xd_arbiter/7r8gQb8MIqE.js?version=41#channel=fa22728f8&amp;origin=http%3A%2F%2Flocalhost" style="border: none;"></iframe><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="https://s-static.ak.facebook.com/connect/xd_arbiter/7r8gQb8MIqE.js?version=41#channel=fa22728f8&amp;origin=http%3A%2F%2Flocalhost" style="border: none;"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="f2107d5a2" frameborder="0" allowtransparency="true" scrolling="no" src="https://www.facebook.com/connect/ping?client_id=1481656762057304&amp;domain=localhost&amp;origin=1&amp;redirect_uri=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2F7r8gQb8MIqE.js%3Fversion%3D41%23cb%3Df380265b18%26domain%3Dlocalhost%26origin%3Dhttp%253A%252F%252Flocalhost%252Ffa22728f8%26relation%3Dparent&amp;response_type=token%2Csigned_request%2Ccode&amp;sdk=joey" style="display: none;"></iframe></div></div></div>
+	
+	<div class="row campaign-page-det">
+		<div class="col-md-9">
+			<div role="tabpanel" class="camp-tab">
+				<ul class="nav nav-tabs" role="tablist">
+					<li role="presentation" class="active"><a href="#overview" aria-controls="overview" role="tab" data-toggle="tab" aria-expanded="true">Overview</a></li>
+					<li role="presentation" class=""><a href="#updates" aria-controls="updates" role="tab" data-toggle="tab" aria-expanded="false">Updates</a></li>
+				</ul>
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="overview">
+						<p class="tab-det">{{campaign.description}}</p>
+						<div class="fb-comments fb_iframe_widget fb_iframe_widget_fluid" data-width="100%" data-href="http://developers.facebook.com/docs/plugins/comments/" data-numposts="10" data-colorscheme="light" fb-xfbml-state="rendered"><span style="height: 183px; width: 851px;"><iframe id="f3ad0c6cb8" name="f39cd94b54" scrolling="no" title="Facebook Social Plugin" class="fb_ltr" src="https://www.facebook.com/plugins/comments.php?api_key=1481656762057304&amp;channel_url=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2F7r8gQb8MIqE.js%3Fversion%3D41%23cb%3Df2e933e8b4%26domain%3Dlocalhost%26origin%3Dhttp%253A%252F%252Flocalhost%252Ffa22728f8%26relation%3Dparent.parent&amp;colorscheme=light&amp;href=http%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2Fcomments%2F&amp;locale=en_US&amp;numposts=10&amp;sdk=joey&amp;skin=light&amp;width=100%25" style="border: none; overflow: hidden; height: 183px; width: 851px;"></iframe></span></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="updates">
+						<p class="tab-det">There are no updates for this campaign yet.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3 camp-page-side">
+			<div class="author">
+				<img src="asssets/images/avatarDefault.png" alt="Feras Saqqa">
+				<ul class="author-list">
+					<li>By : <a href="#" title="Feras Saqqa">{{campaign.first_name}}</a></li>
+					<li>From {{campaign.city}}, {{campaign.country}} <img class="flag" src="asssets/images/flags/16/Palestine.png" alt="Palestine"></li>
+				</ul>
+				<ul class="author-social">
+					<li class="facebook"><a href="{{campaign.facebook}}" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+					<li class="twitter"><a href="{{campaign.twitter}}" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
+					<li class="linkedin"><a href="{{campaign.linkedin}}" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+					<li class="googleplus"><a href="{{campaign.google_plus}}" target="_blank"><i class="fa fa-google-plus-square"></i></a></li>
+					<li class="youtube"><a href="{{campaign.youtube}}" target="_blank"><i class="fa fa-youtube-square"></i></a></li>
+				</ul>
+			</div>
+			<div class="side-br"></div>
+			<h2>People have helped this campaign</h2>
+			<ul class="backers">
+				<li>
+					<img src="asssets/images/blank.jpg" alt="Hamdan K">
+					<span class="name">Hamdan K Abu Taima</span>
+					<span class="date">05 Dec,2014</span>
+					<span class="amount">100$</span>
+				</li>
+				<li>
+					<img src="asssets/images/blank.jpg" alt="Hamdan K">
+					<span class="name">Hamdan K Abu Taima</span>
+					<span class="date">05 Dec,2014</span>
+					<span class="amount">20$</span>
+				</li>
+			</ul>
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>
