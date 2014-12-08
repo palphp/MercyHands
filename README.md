@@ -1,12 +1,12 @@
 [![Koding Hackathon](https://github.com/palphp/hackathon.submit/blob/master/images/badge.png "Koding Hackathon")](https://koding.com/Hackathon)
-=========
-MercyHands
-==========
+---------
+##MercyHands
+---------
 
-Improving the way we care about each others
-=========
+##Improving the way we care about each others
+--------
 
-## Description
+##Description
 
 Imagine saving a life of 10 years old kid suffering from cancer, that would be such a great effort of you, it would be a small contribution from you with the help from other people and that kid can start his treatments.
 We came up with "Mercy Hands" system , which will be a good contribution to humanity, a system that will help us to care about each others.
@@ -18,15 +18,15 @@ Its not just cancer, there are a big list of killing deceases all over the world
 "Mercy Hands" system is very easy to use , it take less than 5 minutes for the user to register and start a campaign to "Save a Saul", once the campaign is published.
 Contributors from all over the world can support each other to "Save the Saul"; and once goal is completed , the system will notify contributors and release the funding to the campaign owner.
 
-## Skills Used
+##Skills Used
 PHP, MySQL, HTML5, CSS3,Javascripts, jQuery, AngularJS, RESTFUL API, LAMP
 
-## Note:
+##Note:
 Database live in a remote Host
 Please find DB_DUMP at:
 https://github.com/palphp/MercyHands/blob/master/DB_Dump/feras_mercy.sql
 
-## Screenshots
+##Screenshots
 
 ![Koding](http://i.imgur.com/6S180rY.png "Koding")
 
