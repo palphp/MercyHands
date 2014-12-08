@@ -1,11 +1,11 @@
-####
-To "Eyad" Only:
+----
+##To "Eyad" as AngularJS Developer:
 TO Get Response Fields
 API:http://localhost/Dropbox/cool-print/backend/index.php
 Please Login As :
 email:me@palphp.com
 password:123
-###
+---
 
 Create New Campaign:
 {
@@ -106,7 +106,7 @@ http://localhost/Dropbox/cool-print/template/my-campaigns.html
 ========================================
 Send email: 
 Contact US:
-http://localhost/Dropbox/cool-print/template/contact.html#
+http://localhost/Dropbox/cool-print/template/contact.html-
 {
 "folder": "config",
 "page": "contact_us",
@@ -117,7 +117,7 @@ http://localhost/Dropbox/cool-print/template/contact.html#
 
 =========================================
 Donate :
-#### 2 Steps:
+---- 2 Steps:
 		Request 1:Collect name,details and amount in Dollars
 		Request 2:Bring UP PayPal Form
 Request 1:
@@ -133,18 +133,18 @@ http://localhost/Dropbox/cool-print/template/donate.html
 }
 
 If we get such a response :
-    /*
-     {
-       "success": true,
-       "Info":
-       {
-           "message": "Get Paypal Button",
-           "custom": "141798058638"
-       }
-    }
-    */
+/*
+ {
+ "success": true,
+ "Info":
+ {
+ "message": "Get Paypal Button",
+ "custom": "141798058638"
+ }
+}
+*/
 
-  Request 2 : Bring Up PAYPAL Form , we need to pass VALUE of "custom" from last response
+Request 2 : Bring Up PAYPAL Form , we need to pass VALUE of "custom" from last response
 {
 "folder":"paypal",
 "page":"paypal",
@@ -155,7 +155,7 @@ If we get such a response :
 
 
 
-# Thats ALL GUYS
+- Thats ALL GUYS
 Thanks To all of you.
 
 
