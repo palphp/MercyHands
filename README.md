@@ -19,7 +19,7 @@ Its not just cancer, there are a big list of killing deceases all over the world
 Contributors from all over the world can support each other to "Save the Saul"; and once goal is completed , the system will notify contributors and release the funding to the campaign owner.
 
 ## Screenshots
-![Koding](https://koding.com/a/site.landing/images/slideshow/2x/ss-terminal.png "Koding")
+![Koding](http://i.imgur.com/pC6GmFt.png "Koding")
 
 ![Koding](https://koding.com/a/site.landing/images/slideshow/2x/ss-terminal.png "Koding")
 
