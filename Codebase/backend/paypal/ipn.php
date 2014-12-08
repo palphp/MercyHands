@@ -3,7 +3,7 @@
 Simple IPN processing script
 based on code from the "PHP Toolkit" provided by PayPal
 */
-
+require("../config/conn.php");
 $url = 'https://www.sandbox.paypal.com/cgi-bin/webscr';
 $postdata = '';
 foreach($_POST as $i => $v) {
