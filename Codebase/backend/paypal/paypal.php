@@ -33,9 +33,9 @@ public function __construct($customi=""){
   'currency' => 'USD',                       //paypal currency
   'cursymbol'=> '&dollar;',                   //currency symbol
   'location' => 'US',                        //location code  (ex GB)
-  'returnurl'=> 'http://mysite/myreturnpage',//where to go back when the transaction is done.
-  'returntxt'=> 'Return to My Site',         //What is written on the return button in paypal
-  'cancelurl'=> 'http://mysite/mycancelpage',//Where to go if the user cancels.
+  'returnurl'=> 'http://phphamdan.koding.io/#/',//where to go back when the transaction is done.
+  'returntxt'=> 'Return to Mercy Hands Website',         //What is written on the return button in paypal
+  'cancelurl'=> 'http://phphamdan.koding.io/#/',//Where to go if the user cancels.
   'shipping' => 0,                           //Shipping Cost
   'custom'   => $customi                          //Custom attribute
   );
