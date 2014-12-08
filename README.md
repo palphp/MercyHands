@@ -29,6 +29,10 @@ https://github.com/palphp/MercyHands/blob/master/DB_Dump/feras_mercy.sql
 ## Team Work Env. used.
 Dropbox share, Koding, Github
 
+## Create account or directly log in as:
+email:me@palphp.com
+password:123
+
 ##Screenshots
 
 ![Koding](http://i.imgur.com/6S180rY.png "Koding")
