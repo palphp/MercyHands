@@ -23,6 +23,8 @@ PHP, MySQL, HTML5, CSS3,Javascripts, jQuery, AngularJS, RESTFUL API, LAMP
 
 ## Note:
 Database live in a remote Host
+Please find DB_DUMP at:
+https://github.com/palphp/MercyHands/blob/master/DB_Dump/feras_mercy.sql
 
 ## Screenshots
 
