@@ -1,3 +1,5 @@
+[![Koding Hackathon](https://github.com/palphp/hackathon.submit/blob/master/images/badge.png "Koding Hackathon")](https://koding.com/Hackathon)
+=========
 MercyHands
 ==========
 
@@ -5,7 +7,7 @@ Improving the way we care about each others
 =========
 
 ## Description
-[![Koding Hackathon](https://github.com/palphp/hackathon.submit/blob/master/images/badge.png "Koding Hackathon")](https://koding.com/Hackathon)
+
 Imagine saving a life of 10 years old kid suffering from cancer, that would be such a great effort of you, it would be a small contribution from you with the help from other people and that kid can start his treatments.
 We came up with "Mercy Hands" system , which will be a good contribution to humanity, a system that will help us to care about each others.
 
