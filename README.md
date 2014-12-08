@@ -26,6 +26,9 @@ Database live in a remote Host
 Please find DB_DUMP at:
 https://github.com/palphp/MercyHands/blob/master/DB_Dump/feras_mercy.sql
 
+## Team Work Env. used.
+Dropbox share, Koding, Github
+
 ##Screenshots
 
 ![Koding](http://i.imgur.com/6S180rY.png "Koding")
