@@ -18,6 +18,12 @@ Its not just cancer, there are a big list of killing deceases all over the world
 "Mercy Hands" system is very easy to use , it take less than 5 minutes for the user to register and start a campaign to "Save a Saul", once the campaign is published.
 Contributors from all over the world can support each other to "Save the Saul"; and once goal is completed , the system will notify contributors and release the funding to the campaign owner.
 
+## Skills Used
+PHP, MySQL, HTML5, CSS3,Javascripts, jQuery, AngularJS, RESTFUL API, LAMP
+
+## Note:
+Database live in a remote Host
+
 ## Screenshots
 
 ![Koding](http://i.imgur.com/6S180rY.png "Koding")
